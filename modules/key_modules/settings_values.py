@@ -1,7 +1,7 @@
 {'app install helper': {'hidden': False},
  'file cleaner': {'hidden': True},
  'general': {'hidden': True,
-             'popup location': 'Bottom Right',
+             'popup location': 'Middle Middle',
              'popup offset': 50,
              'screen height': 1080,
              'screen width': 1920},

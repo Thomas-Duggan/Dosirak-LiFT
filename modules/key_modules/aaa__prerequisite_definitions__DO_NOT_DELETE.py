@@ -6,10 +6,8 @@
 from subprocess import run
 from tkinter import *
 import webbrowser as wb
-from os import path, listdir
+from os import path, listdir, system
 from ast import literal_eval
-
-#path.expanduser("~/simple-linux-utility-and-toolbox/logo.png
 
 settings = open(path.expanduser("~/simplified-linux-utilities-and-toolbox/modules/key_modules/settings_values.py"),"r")
 settings_dict = literal_eval(settings.read())
