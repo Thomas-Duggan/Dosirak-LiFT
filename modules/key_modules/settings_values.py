@@ -1,0 +1,11 @@
+{'app install helper': {'hidden': False},
+ 'file cleaner': {'hidden': True},
+ 'general': {'hidden': True,
+             'popup location': 'Bottom Right',
+             'popup offset': 50,
+             'screen height': 1080,
+             'screen width': 1920},
+ 'internet stability graph': {'hidden': True, 'max iterations': 10},
+ 'quick commands': {'hidden': False,
+                    'power profiles hidden': 'Hide Performance Mode'},
+ 'useful websites': {'hidden': True, 'hide not linux related': False}}

@@ -1,0 +1,11 @@
+
+When adding a module, edit:
+
+    /key_modules/settings.py
+
+to create options for your module in settings.
+
+
+For idiosyncrasies on how to use prd imports, please look at:
+
+    /key_modules/aaa__prerequisite_definitions__DO_NOT_DELETE.py
