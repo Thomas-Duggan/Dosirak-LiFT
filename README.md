@@ -4,6 +4,7 @@
 Download and run "!!! Installer !!!.sh". 
 
 ## Todo:
+- Change app name and references to Dosirak SLS; Change description to Dosirak (Simple Linux Scripts)
 - Add Application Database (replaces App Install Helper)
 - Add installed wallpaper list chooser
 - Add ability to install custom videos not from WPE
