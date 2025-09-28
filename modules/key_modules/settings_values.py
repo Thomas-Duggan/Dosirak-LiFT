@@ -8,4 +8,5 @@
  'internet stability graph': {'hidden': True, 'max iterations': 10},
  'quick commands': {'hidden': False,
                     'power profiles hidden': 'Hide Performance Mode'},
- 'useful websites': {'hidden': True, 'hide not linux related': False}}
+ 'useful websites': {'hidden': True, 'hide not linux related': False},
+ 'wallpaper engine': {'wallpaper': 'Miku x Shrek'}}
