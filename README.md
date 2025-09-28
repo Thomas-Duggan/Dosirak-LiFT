@@ -3,6 +3,11 @@
 ## How to install
 Download and run "!!! Installer !!!.sh". 
 
+## Todo:
+- Add Application Database (replaces App Install Helper)
+- Add installed wallpaper list chooser
+- Add ability to install custom videos not from WPE
+- Add settings for Internet Stability Graph
 
 ## Purpose
 
