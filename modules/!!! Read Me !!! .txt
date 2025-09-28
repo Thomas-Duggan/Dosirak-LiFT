@@ -1,3 +1,7 @@
+To change the order of the modules on the home screen, 
+change the uppercase letter at the beginning of the modules
+Note: these may change to numbers in a later update
+
 
 When adding a module, edit:
 
