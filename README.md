@@ -4,7 +4,7 @@
 Download and run "!!! Installer !!!.sh". 
 
 ## Todo:
-- Change app name and references to Dosirak
+- Change app name and references to Dosirak-LiFT (Linux Fixes and Tricks)
 - Add Application Database (replaces App Install Helper)
 - Add installed wallpaper list chooser
 - Add ability to install custom videos not from WPE
