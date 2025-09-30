@@ -29,32 +29,32 @@ if "--sc" in argv:
 
 else: 
 
-    modules = prd.listdir(prd.path.expanduser('~/simplified-linux-utilities-and-toolbox/modules'))
+    modules = prd.listdir(prd.path.expanduser('~/Dosirak-LiFT/modules'))
     for module in range(len(modules)):
         if "Screenshot Tool" in modules[module]:
             name = modules[module].replace(" ","\ ")
             break
 
     def update(family, key, value):
-        settings = open(prd.path.expanduser("~/simplified-linux-utilities-and-toolbox/modules/key_modules/settings_values.py"),"r")
+        settings = open(prd.path.expanduser("~/Dosirak-LiFT/modules/key_modules/settings_values.py"),"r")
         settings_dict = prd.literal_eval(settings.read())
         settings.close()
 
         settings_dict[family][key] = value
         
-        settings = open(prd.path.expanduser("~/simplified-linux-utilities-and-toolbox/modules/key_modules/settings_values.py"),"w")
+        settings = open(prd.path.expanduser("~/Dosirak-LiFT/modules/key_modules/settings_values.py"),"w")
         settings.write(str(prd.pformat(settings_dict)))
         settings.close()
 
-        prd.run('gnome-terminal -- python3 ~/simplified-linux-utilities-and-toolbox/modules/key_modules/settings.py && exit', shell = True)
+        prd.run('gnome-terminal -- python3 ~/Dosirak-LiFT/modules/key_modules/settings.py && exit', shell = True)
         exit()
 
     def open_xed():
 
-        cmd = open(prd.path.expanduser("~/simplified-linux-utilities-and-toolbox/shell_temp_folder.sh"),"w")
-        cmd.write(f'python3 ~/simplified-linux-utilities-and-toolbox/modules/{name} --sc')		
+        cmd = open(prd.path.expanduser("~/Dosirak-LiFT/shell_temp_folder.sh"),"w")
+        cmd.write(f'python3 ~/Dosirak-LiFT/modules/{name} --sc')		
         cmd.close()								
-        prd.run('gnome-terminal -- xed ~/simplified-linux-utilities-and-toolbox/shell_temp_folder.sh', shell=True) 
+        prd.run('gnome-terminal -- xed ~/Dosirak-LiFT/shell_temp_folder.sh', shell=True) 
 
     def install(delete = False):
 
@@ -87,7 +87,7 @@ else:
 
     prd.text('To take a screenshot, create a shell script in "~/bin" with this in it, and bind ')
     prd.text("the script's name to a command in the Keyboard application:")
-    prd.text(f'        python3 ~/simplified-linux-utilities-and-toolbox/modules/{name} --sc')
+    prd.text(f'        python3 ~/Dosirak-LiFT/modules/{name} --sc')
     prd.button("Open Command",
                lambda: open_xed())
     

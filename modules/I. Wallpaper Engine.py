@@ -15,19 +15,19 @@ from pprint import pformat
 
 
 def set_wallpaper (wallpaper):
-    settings = open(prd.path.expanduser("~/simplified-linux-utilities-and-toolbox/modules/key_modules/settings_values.py"),"r")
+    settings = open(prd.path.expanduser("~/Dosirak-LiFT/modules/key_modules/settings_values.py"),"r")
     settings_dict = prd.literal_eval(settings.read())
     settings.close()
 
     settings_dict["wallpaper engine"]["wallpaper"] = wallpaper
     
-    settings = open(prd.path.expanduser("~/simplified-linux-utilities-and-toolbox/modules/key_modules/settings_values.py"),"w")
+    settings = open(prd.path.expanduser("~/Dosirak-LiFT/modules/key_modules/settings_values.py"),"w")
     settings.write(str(pformat(settings_dict)))
     settings.close()
 
 
 if "--wpe" in argv:
-    modules = prd.listdir(prd.path.expanduser('~/simplified-linux-utilities-and-toolbox/modules'))
+    modules = prd.listdir(prd.path.expanduser('~/Dosirak-LiFT/modules'))
     for module in range(len(modules)):
         if "Wallpaper Engine" in modules[module]:
             name = modules[module].replace(" ",r"\ ")
@@ -81,10 +81,10 @@ if "--wpe" in argv:
             prd.button(
                 "Install",
                 (lambda wp = wallpaper: (
-                    makedirs(prd.path.expanduser("~/simplified-linux-utilities-and-toolbox/wallpapers/"+wpe_titles[wp]), exist_ok = True),
-                    prd.system("ffmpeg -i "+wpe_path+"/"+wpe_encrypted[wp]+'/"'+wpe_usable[wp]+'" -vf fps=10 ~/simplified-linux-utilities-and-toolbox/wallpapers/"'+wpe_titles[wp]+'"/frame_%04d.png'),
+                    makedirs(prd.path.expanduser("~/Dosirak-LiFT/wallpapers/"+wpe_titles[wp]), exist_ok = True),
+                    prd.system("ffmpeg -i "+wpe_path+"/"+wpe_encrypted[wp]+'/"'+wpe_usable[wp]+'" -vf fps=10 ~/Dosirak-LiFT/wallpapers/"'+wpe_titles[wp]+'"/frame_%04d.png'),
                     set_wallpaper(wpe_titles[wallpaper]),
-                    prd.system(f'python3 {prd.path.expanduser("~/simplified-linux-utilities-and-toolbox/modules")}/{name} --run'),
+                    prd.system(f'python3 {prd.path.expanduser("~/Dosirak-LiFT/modules")}/{name} --run'),
                     )),
                 keep_row = True
             )
@@ -115,11 +115,11 @@ if "--wpe" in argv:
 
 if "--run" in argv:
 
-    settings = open(prd.path.expanduser("~/simplified-linux-utilities-and-toolbox/modules/key_modules/settings_values.py"),"r")
+    settings = open(prd.path.expanduser("~/Dosirak-LiFT/modules/key_modules/settings_values.py"),"r")
     settings_dict = prd.literal_eval(settings.read())
     settings.close()
 
-    directory = prd.path.expanduser('~/simplified-linux-utilities-and-toolbox/wallpapers/')
+    directory = prd.path.expanduser('~/Dosirak-LiFT/wallpapers/')
     subdirectory = {settings_dict["wallpaper engine"]["wallpaper"]}
     subdirectory = str(subdirectory).replace("{","").replace("}","")
 
@@ -139,7 +139,7 @@ if "--run" in argv:
             sleep(1/fps)
 
 else:
-    modules = prd.listdir(prd.path.expanduser('~/simplified-linux-utilities-and-toolbox/modules'))
+    modules = prd.listdir(prd.path.expanduser('~/Dosirak-LiFT/modules'))
     for module in range(len(modules)):
         if "Wallpaper Engine" in modules[module]:
             name = modules[module].replace(" ",r"\ ")
@@ -164,7 +164,7 @@ else:
     prd.button(
         "Open WPE to XFCE converter",
         lambda: (
-            prd.run(f'gnome-terminal -- python3 {prd.path.expanduser("~/simplified-linux-utilities-and-toolbox/modules")}/{name} --wpe', shell = True),
+            prd.run(f'gnome-terminal -- python3 {prd.path.expanduser("~/Dosirak-LiFT/modules")}/{name} --wpe', shell = True),
             exit()   
             )
     )

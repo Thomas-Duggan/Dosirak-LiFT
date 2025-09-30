@@ -1,6 +1,6 @@
 # Prereq Defs #
 
-# Simplified Linux Utilities and Toolbox  Copyright (c) 2025  Thomas Duggan
+# Dosirak LiFT  Copyright (c) 2025  Thomas Duggan
 # This work is licensed under CC BY-SA 4.0
 
 from subprocess import run
@@ -9,7 +9,7 @@ import webbrowser as wb
 from os import path, listdir, system
 from ast import literal_eval
 
-settings = open(path.expanduser("~/simplified-linux-utilities-and-toolbox/modules/key_modules/settings_values.py"),"r")
+settings = open(path.expanduser("~/Dosirak-LiFT/modules/key_modules/settings_values.py"),"r")
 settings_dict = literal_eval(settings.read())
 settings.close()
 
@@ -53,7 +53,7 @@ def create_content(title, x = "640", y = "480", background = "#d9d9d9"):
     root.title(title)		# Window title
     root.geometry(f"{x}x{y}+{x_offset}+{y_offset}")	
     root.configure(bg = background)												# Window size
-    logo = PhotoImage(file = path.join(path.expanduser("~/simplified-linux-utilities-and-toolbox/logo.png")))
+    logo = PhotoImage(file = path.join(path.expanduser("~/Dosirak-LiFT/logo.png")))
     root.iconphoto(root,logo)
     # Initial setup for tkinter
 
@@ -75,7 +75,7 @@ def run_content(home = False):
 
     if home == False:
         def home():
-            run('gnome-terminal -- python3 ~/simplified-linux-utilities-and-toolbox/home.py && exit', shell=True)
+            run('gnome-terminal -- python3 ~/Dosirak-LiFT/home.py && exit', shell=True)
             exit()
 
         button = Button(root, text = "🡄 Return Home",
@@ -180,7 +180,7 @@ def button(text, command, keep_row = False, sticky = "w", exists = True):
 
 
 def home_buttons():
-    modules = listdir(path.expanduser('~/simplified-linux-utilities-and-toolbox/modules'))
+    modules = listdir(path.expanduser('~/Dosirak-LiFT/modules'))
     modules.sort()
     
     for module in range(len(modules) -1, -1, -1):
@@ -210,7 +210,7 @@ def home_buttons():
 
         # Creates the button
         button_n = button(title,
-               lambda file = file_name: (run(f'gnome-terminal -- python3 ~/simplified-linux-utilities-and-toolbox/modules/"{file}" && exit', shell = True), exit()),
+               lambda file = file_name: (run(f'gnome-terminal -- python3 ~/Dosirak-LiFT/modules/"{file}" && exit', shell = True), exit()),
                sticky = "n")
 
 def text(text, type = None, location = "left", color = "#000000", background = "#d9d9d9", keep_row=False, exists = True):

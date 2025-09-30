@@ -1,6 +1,6 @@
-# Info #
+#Info#
 
-# Simplified Linux Utilities and Toolbox  Copyright (c) 2025  Thomas Duggan
+# Dosirak LiFT  Copyright (c) 2025  Thomas Duggan
 # This work is licensed under CC BY-SA 4.0
 
 import aaa__prerequisite_definitions__DO_NOT_DELETE as prd

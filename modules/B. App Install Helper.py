@@ -1,6 +1,6 @@
 #App Install Helper (BROKEN)#
 
-# Simplified Linux Utilities and Toolbox  Copyright (c) 2025  Thomas Duggan
+# Dosirak LiFT  Copyright (c) 2025  Thomas Duggan
 # This work is licensed under CC BY-SA 4.0
 
 
@@ -2086,7 +2086,7 @@ def install():
         cmd.write(" ;\n".join(final_script))		# Combines list into single string (note: ";" means to run each command sequentially, regardless if any proceeding command fails)
         cmd.close()								# Closes shell script to reduce resources
 
-        run('gnome-terminal -- sudo bash ~/simple-linux-utility-and-toolbox/shell_temp_folder.sh', shell=True) # Launch edited shell script in terminal
+        run('gnome-terminal -- sudo bash ~/Dosirak-LiFT/shell_temp_folder.sh', shell=True) # Launch edited shell script in terminal
                         
     
 button = Button(root, text="Install",
@@ -2098,7 +2098,7 @@ button.grid(row=1,
             padx=45)
 
 def home():
-    run('gnome-terminal -- python3 ~/simple-linux-utility-and-toolbox/home.py && exit', shell=True) # Launch edited shell script in terminal
+    run('gnome-terminal -- python3 ~/Dosirak-LiFT/home.py && exit', shell=True) # Launch edited shell script in terminal
     exit()	# kills current script once shell script is running
     
 button = Button(root, text="🡄 Return Home",
@@ -2123,7 +2123,7 @@ def file():
         cmd = open("shell_temp_folder.sh","w")	# Open shell script with write permissions
         cmd.write(" ;\n".join(final_script))		# Combines list into single string (note: ";" means to run each command sequentially, regardless if any proceeding command fails)
         cmd.close()								# Closes shell script to reduce resources
-        run('gnome-terminal -- xed ~/simplified-linux-utilities-and-toolbox/shell_temp_folder.sh', shell=True) # Launch edited shell script in terminal
+        run('gnome-terminal -- xed ~/Dosirak-LiFT/shell_temp_folder.sh', shell=True) # Launch edited shell script in terminal
 
     
 button = Button(root, text="View Command",

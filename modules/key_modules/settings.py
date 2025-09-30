@@ -1,6 +1,6 @@
 #Settings#
 
-# Simplified Linux Utilities and Toolbox  Copyright (c) 2025  Thomas Duggan
+# Dosirak LiFT  Copyright (c) 2025  Thomas Duggan
 # This work is licensed under CC BY-SA 4.0
 
 
@@ -23,7 +23,7 @@ def title(family, key, exists = True):
              color = "green")
 
 def read_value(family, key):
-    settings = open(prd.path.expanduser("~/simplified-linux-utilities-and-toolbox/modules/key_modules/settings_values.py"),"r")
+    settings = open(prd.path.expanduser("~/Dosirak-LiFT/modules/key_modules/settings_values.py"),"r")
     settings_dict = prd.literal_eval(settings.read())
     settings.close()
 
@@ -36,17 +36,17 @@ def lined_spacer(exists = True):
     prd.group_new_line()
 
 def update(family, key, value):
-    settings = open(prd.path.expanduser("~/simplified-linux-utilities-and-toolbox/modules/key_modules/settings_values.py"),"r")
+    settings = open(prd.path.expanduser("~/Dosirak-LiFT/modules/key_modules/settings_values.py"),"r")
     settings_dict = prd.literal_eval(settings.read())
     settings.close()
 
     settings_dict[family][key] = value
     
-    settings = open(prd.path.expanduser("~/simplified-linux-utilities-and-toolbox/modules/key_modules/settings_values.py"),"w")
+    settings = open(prd.path.expanduser("~/Dosirak-LiFT/modules/key_modules/settings_values.py"),"w")
     settings.write(str(pformat(settings_dict)))
     settings.close()
 
-    prd.run('gnome-terminal -- python3 ~/simplified-linux-utilities-and-toolbox/modules/key_modules/settings.py && exit', shell = True)
+    prd.run('gnome-terminal -- python3 ~/Dosirak-LiFT/modules/key_modules/settings.py && exit', shell = True)
     exit()
 
 def default_is(value, spacer = True, exists = True):
@@ -249,7 +249,7 @@ lined_spacer()
 
 
 
-modules = prd.listdir(prd.path.expanduser('~/simplified-linux-utilities-and-toolbox/modules'))
+modules = prd.listdir(prd.path.expanduser('~/Dosirak-LiFT/modules'))
 
 
 for module in range(len(modules)):
