@@ -137,40 +137,11 @@ prd.button("Steam Workshop Folder",
 
 prd.group_new_line()
 
-#prd.button("")
-#
-#
-#def adb():
-#    cmd = open("shell_temp_folder.sh","w")
-#    cmd.write("sudo xed /etc/sysctl.conf ; sudo sysctl -p")
-#    cmd.close()
-#    
-#    run('gnome-terminal -- bash -c "echo \\"At the bottom, type:   vm.swappiness = 10\nOr use any other number \n\\"; sudo xed /etc/sysctl.conf ; sudo sysctl -p"', shell=True)
-#
-#button = Button(wayframe, text="adb udev rules",
-#                command=adb)
-#button.grid(row = 1,
-#            column = 0,
-#            sticky="w",
-#            pady=5,
-#            padx=7)
+prd.button("Sysreq Unlocker",
+           lambda:prd.run('gnome-terminal -- bash -c "echo \\"Replace the value in this file with:  1\nThis will allow the keybind Alt+PrtScn+K for a safer and faster alternative to REISUB.\nPlease disregard any file saving errors.\\"; sudo xed /proc/sys/kernel/sysreq ; sudo sysctl -p"', shell=True),
+           keep_row = True)
 
-#
-#
-#def bedrock():
-#    cmd = open("shell_temp_folder.sh","w")
-#    cmd.write("sudo xed /etc/sysctl.conf ; sudo sysctl -p")
-#    cmd.close()
-#    
-#    run('gnome-terminal -- bash -c "echo \\"At the bottom, type:   vm.swappiness = 10\nOr use any other number \n\\"; sudo xed /etc/sysctl.conf ; sudo sysctl -p"', shell=True)
-#
-#button = Button(wayframe, text="adb udev rules",
-#                command=lambda: run("run('gnome-terminal -- nemo ~/.var/app/io.mrarm.mcpelauncher/data/mcpelauncher/games/com.mojang",shell=True))
-#button.grid(row = 1,
-#            column = 0,
-#            sticky="w",
-#            pady=5,
-#            padx=7)
+prd.group_new_line()
 
 
 # lsusb  -  list all usb devices
@@ -187,19 +158,6 @@ prd.text("Wine:",
 ###################################
 
 prd.group_open()
-
-#prd.button()
-#def winepath():
-#    pass
-#    #run('gnome-terminal -- nemo ~/.local/share/Steam/steamapps/workshop/content', shell=True)
-#
-#button = Button(wayframe, text="Wineprefix Folder",
-#                command=winepath)
-#button.grid(row = 16,
-#            column = 2,
-#            sticky="w",
-#            pady=5,
-#            padx=7)
 
 prd.button("File Explorer",
            lambda:prd.run('gnome-terminal -- winefile', shell=True),
