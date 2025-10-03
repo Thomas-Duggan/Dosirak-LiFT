@@ -4,7 +4,8 @@
 Download and run "!!! Installer !!!.sh". 
 
 ## Todo:
-- Change app name and references to Dosirak-LiFT (Linux Fixes and Tricks)
+- Add Non-Steam Game Save Extractor
+- Add folder for Module Exports
 - Add Application Database (replaces App Install Helper)
 - Add installed wallpaper list chooser
 - Add ability to install custom videos not from WPE
