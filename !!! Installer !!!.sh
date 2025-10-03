@@ -33,6 +33,5 @@ sudo apt install git -y
 
 
 # Installing App from Github Repo:
-
 git clone https://github.com/Thomas-Duggan/simplified-linux-utilities-and-toolbox
 
