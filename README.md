@@ -6,6 +6,7 @@ Download and run "!!! Installer !!!.sh".
 ## Todo:
 - Add Non-Steam Game Save Extractor
 - Add folder for Module Exports
+- Create permanent logo
 - Add Application Database (replaces App Install Helper)
 - Add installed wallpaper list chooser
 - Add ability to install custom videos not from WPE
