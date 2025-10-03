@@ -1,4 +1,4 @@
-#Screenshot Tool#
+#XFCE Screenshot Tool#
 
 # Dosirak LiFT  Copyright (c) 2025  Thomas Duggan
 # This work is licensed under CC BY-SA 4.0
