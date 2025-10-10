@@ -1,1 +1,1 @@
-sudo rm -r ~/"mpvpaper"
+
