@@ -1,7 +1,7 @@
 # This app is in Alpha, many features may not work or may change significantly in later versions.
 
 ## How to install
-Download and run "!!! Installer !!!.sh". 
+Under "**Releases**", download and run "Dosirak-LiFT-Installer.sh".
 
 ## Todo:
 - Add Non-Steam Game Save Extractor
