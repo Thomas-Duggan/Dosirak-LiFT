@@ -7,7 +7,6 @@ Under "**Releases**", download and run "Dosirak-LiFT-Installer.sh".
 - Add Non-Steam Game Save Extractor
 - Have the home.py Quit button clear the shell temp folder
 - Add folder for Module Exports
-- Create permanent logo
 - Add Application Database (replaces App Install Helper)
 - Add installed wallpaper list chooser
 - Add ability to install custom videos not from WPE
