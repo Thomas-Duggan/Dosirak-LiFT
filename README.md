@@ -11,6 +11,7 @@ Under "**Releases**", download and run "Dosirak-LiFT-Installer.sh".
 - Add installed wallpaper list chooser
 - Add ability to install custom videos not from WPE
 - Add settings for Internet Stability Graph
+- Remove reliance on shell temp folder
 
 ## Purpose
 
