@@ -1,9 +1,5 @@
 # This app is in Alpha, many features may not work or may change significantly in later versions.
 
-## Purpose
-
-A compendium of Linux modules (temp description)
-
 ## How to install
 Under "**Releases**", download and run "Dosirak-LiFT-Installer.sh".
 
