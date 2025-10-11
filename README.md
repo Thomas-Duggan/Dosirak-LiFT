@@ -2,7 +2,7 @@
 Dosirak LiFT *(pronounced dough-see-rack)* is a highly-customizable GUI-based beginner-friendly helper program that eases the transition from Windows to Linux.
 
 
-## Status: Alpha
+# Status: Alpha
 This app is currently in Alpha. Features may not work or may change significantly in later versions. 
 
 
