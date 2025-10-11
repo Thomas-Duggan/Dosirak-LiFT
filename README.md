@@ -11,6 +11,7 @@ General
  - Have the home.py Quit button clear the shell temp folder
  - Remove reliance on shell temp folder
  - Add failsafe in case logo.png is deleted
+ - Add update option in settings or a popup window 
 
 WPE for XFCE
  - Add ability to install custom videos not from WPE
