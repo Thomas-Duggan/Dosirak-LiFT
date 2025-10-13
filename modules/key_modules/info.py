@@ -37,7 +37,7 @@ prd.button("Github",
 prd.spacer()
 #######################################################################################
 
-prd.text("Dylan Johnston  -  Beta Tester")
+prd.text("Dylan Johnston  -  Quality Assurance")
 
 prd.spacer()
 prd.spacer()
@@ -49,7 +49,7 @@ prd.text("Special Thanks To...",
 prd.spacer()
 #######################################################################################
 
-prd.text("Gaurav Leekha  -  Scroll Bar Programmer")
+prd.text("Gaurav Leekha  -  Source Code Contributor")
 
 
 prd.button("Tutorialspoint",
