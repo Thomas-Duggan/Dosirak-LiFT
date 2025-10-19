@@ -27,6 +27,7 @@ Under "**Releases**", download and run "Dosirak-LiFT-Installer.sh".
 
 - Install custom videos not from WPE  
 - Installed wallpaper list chooser  
+- Test to see if C++ would allow faster wallpaper updating
 </details>
 
 <details>
