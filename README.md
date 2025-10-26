@@ -14,12 +14,13 @@ Under "**Releases**", download and run "Dosirak-LiFT-Installer.sh".
 <summary>General</summary>
 
 - Non-Steam Game Save Extractor — automatically detects and helps backup saves for non-steam games
-- Application Database — replaces App Install Helper - A large, searchable collection of installable apps taken from a customizable dictionary 
+- Application Database — replaces App Install Helper - A large, searchable collection of installable apps taken from a customizable dictionary
 - Add folder for Module Exports  
 - Have the 'home.py' Quit button clear the shell temp folder 
 - Remove reliance on shell temp folder (if possible)
 - Add failsafe in case 'logo.png' is deleted  
 - Add update option in settings and a mutable popup if any updates are available
+- Add Easy G++ Compiler
 </details>
 
 <details>
