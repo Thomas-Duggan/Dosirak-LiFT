@@ -21,6 +21,7 @@ Under "**Releases**", download and run "Dosirak-LiFT-Installer.sh".
 - Add failsafe in case 'logo.png' is deleted  
 - Add update option in settings and a mutable popup if any updates are available
 - Add Easy G++ Compiler
+- Add GUI-based wifi printer
 </details>
 
 <details>
