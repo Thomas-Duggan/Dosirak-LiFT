@@ -11,8 +11,13 @@ Under "**Releases**", download and run "Dosirak-LiFT-Installer.sh".
 
 ## Planned Features
 <details>
-<summary>General</summary>
+<summary>ASAP</summary>
+- Add more transparency about terminal commands and specifically ask for user consent beforehand.
 
+</details>
+
+<details>
+<summary>General</summary>
 - Non-Steam Game Save Extractor — automatically detects and helps backup saves for non-steam games
 - Application Database — replaces App Install Helper - A large, searchable collection of installable apps taken from a customizable dictionary
 - Add folder for Module Exports  
