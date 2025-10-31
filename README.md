@@ -1,4 +1,4 @@
-> Notice: This app is currently in Alpha. Features may not work or may change significantly in later revisions. 
+> Notice: This app is currently in Alpha. Features may not work or may change significantly in later versions. 
 
 
 ## Dosirak - Linux Fixes & Tricks
