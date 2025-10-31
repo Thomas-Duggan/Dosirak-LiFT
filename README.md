@@ -11,7 +11,7 @@ Under "**Releases**", download and run "Dosirak-LiFT-Installer.sh".
 
 ## Planned Features
 <details>
-<summary>ASAP</summary>
+<summary>**ASAP**</summary>
 - Add more transparency about terminal commands and specifically ask for user consent beforehand.
 
 </details>
