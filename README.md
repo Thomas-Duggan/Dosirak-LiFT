@@ -18,6 +18,7 @@ Under "**Releases**", download and run "Dosirak-LiFT-Installer.sh".
 
 <details>
 <summary>General</summary>
+- Change dependancy on defined paths to ./ paths for portability.
 - Non-Steam Game Save Extractor — automatically detects and helps backup saves for non-steam games
 - Application Database — replaces App Install Helper - A large, searchable collection of installable apps taken from a customizable dictionary
 - Add folder for Module Exports  
