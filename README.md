@@ -61,5 +61,4 @@ Under "**Releases**", download and run "Dosirak-LiFT-Installer.sh".
 
 
 ## Copyright
-[Creative Commons Attribution-ShareAlike 4.0 International Public
-License](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
