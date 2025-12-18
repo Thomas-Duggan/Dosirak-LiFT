@@ -38,7 +38,7 @@ prd.text("and Tricks",
          color = "dark blue",
          location = "bottom")
 
-prd.text ("Last updated Sept 29, 2025",
+prd.text ("Last updated Dec 18, 2025",
           type = "subtitle",
           background = background,
           color = "grey",
