@@ -63,7 +63,7 @@ prd.group_open(parent = prd.root,
                background = background)
 
 prd.button("Info",
-           lambda:(prd.run('gnome-terminal -- python3 ~/dosirak-lift/modules/key_modules/info.py && exit', shell = True), exit()),
+           lambda:(prd.run('gnome-terminal -- python3 ~/Dosirak-LiFT/modules/key_modules/info.py && exit', shell = True), exit()),
            keep_row = True)
 
 prd.button("Quit",
@@ -71,7 +71,7 @@ prd.button("Quit",
            keep_row = True)
 
 prd.button("Settings",
-           lambda:(prd.run('gnome-terminal -- python3 ~/dosirak-lift/modules/key_modules/settings.py && exit', shell = True), exit()))
+           lambda:(prd.run('gnome-terminal -- python3 ~/Dosirak-LiFT/modules/key_modules/settings.py && exit', shell = True), exit()))
 
 prd.group_close(sticky = "n")
 
