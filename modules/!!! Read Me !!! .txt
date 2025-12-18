@@ -1,8 +1,12 @@
+
+
+    1.
 To change the order of the modules on the home screen, 
 change the uppercase letter at the beginning of the modules
 Note: these may change to numbers in a later update
 
 
+    2.
 When adding a module, edit:
 
     /key_modules/settings.py
@@ -10,6 +14,7 @@ When adding a module, edit:
 to create options for your module in settings.
 
 
+    3.
 For idiosyncrasies on how to use prd imports, please look at:
 
     /key_modules/aaa__prerequisite_definitions__DO_NOT_DELETE.py
