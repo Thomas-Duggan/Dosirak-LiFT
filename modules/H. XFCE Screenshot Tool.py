@@ -59,9 +59,9 @@ else:
     def install(delete = False):
 
         if delete == False:
-            prd.run('gnome-terminal -- pip install -y pillow && sudo apt install -y xclip && exit', shell=True) 
+            prd.run('gnome-terminal -- pip install pillow && sudo apt install -y xclip && exit', shell=True) 
         else:
-            prd.run('gnome-terminal -- pip uninstall -y pillow && sudo apt remove -y xclip && exit', shell=True) 
+            prd.run('gnome-terminal -- pip uninstall pillow && sudo apt remove -y xclip && exit', shell=True) 
 
 
     prd.create_content("Screenshot Tool")
