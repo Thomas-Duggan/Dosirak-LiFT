@@ -123,7 +123,7 @@ if "--run" in argv:
     subdirectory = {settings_dict["wallpaper engine"]["wallpaper"]}
     subdirectory = str(subdirectory).replace("{","").replace("}","")
 
-    frames = sorted(prd.listdir(f"{directory}{settings_dict["wallpaper engine"]["wallpaper"]}"))
+    frames = sorted(prd.listdir(f"{directory}{settings_dict['wallpaper engine']['wallpaper']}"))
     frame_list = []
 
     fps = 20
