@@ -83,9 +83,10 @@ if "--wpe" in argv:
                 (lambda wp = wallpaper: (
                     makedirs(prd.path.expanduser("~/Dosirak-LiFT/wallpapers/"+wpe_titles[wp]), exist_ok = True),
                     prd.system("ffmpeg -i "+wpe_path+"/"+wpe_encrypted[wp]+'/"'+wpe_usable[wp]+'" -vf fps=10 ~/Dosirak-LiFT/wallpapers/"'+wpe_titles[wp]+'"/frame_%04d.png'),
-                    set_wallpaper(wpe_titles[wallpaper]),
+                    set_wallpaper(wpe_titles[wp]),
                     prd.system(f'python3 {prd.path.expanduser("~/Dosirak-LiFT/modules")}/{name} --run'),
-                    )),
+                    )
+                ),
                 keep_row = True
             )
 
