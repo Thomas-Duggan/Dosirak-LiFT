@@ -34,7 +34,7 @@ if "--wpe" in argv:
             break
 
 
-    wpe_path = prd.path.expanduser("~/.steam/debian-installation/steamapps/workshop/content/431960")
+    wpe_path = prd.path.expanduser("~/.local/share/Steam/steamapps/workshop/content/431960")
     wpe_encrypted = prd.listdir(wpe_path) # list of encrypted names of WPE downloads
 
     wpe_titles = []
@@ -62,7 +62,7 @@ if "--wpe" in argv:
         else:
             wpe_usable.append(False)                                     
 
-    ##################################################################################################################
+    ########################################## MAIN WINDOW ##########################################
 
     prd.create_content("WPE 4 XFCE - File Converter")
     prd.group_open()
