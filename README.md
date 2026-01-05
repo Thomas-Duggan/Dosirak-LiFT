@@ -12,27 +12,27 @@ Dosirak LiFT *(pronounced dough-see-rack)* is a highly customizable, beginner-fr
   
 <figure>
 <img src="https://raw.githubusercontent.com/Thomas-Duggan/project-images/refs/heads/main/DosirakLiFT/DosirakLiFT_Home.png" width=300>
-<p><strong>Home page</strong> - (home.py)</p>
+<p><strong>^ Home page</strong> - (home.py)</p>
 </figure>
 
 <figure>  
 <img src="https://raw.githubusercontent.com/Thomas-Duggan/project-images/refs/heads/main/DosirakLiFT/DosirakLiFT_Quick-Commands.png" width=500>
-<p><strong>Quick Commands</strong> - (modules/C. Quick Commands.py)</p>
+<p><strong>^ Quick Commands</strong> - (modules/C. Quick Commands.py)</p>
 </figure>
 
 <figure>  
 <img src="https://github.com/Thomas-Duggan/project-images/blob/main/DosirakLiFT/DosirakLiFT_Useful-Websites.png?raw=true" width=500>
-<p><strong>Useful Websites</strong> - (modules/D. Useful Websites.py)</p>
+<p><strong>^ Useful Websites</strong> - (modules/D. Useful Websites.py)</p>
 </figure>
 
 <figure>  
 <img src="https://github.com/Thomas-Duggan/project-images/blob/main/DosirakLiFT/DosirakLiFT_Internet-Stability-Graph.png?raw=true" width=400>
-<p><strong>Internet Stability Graph</strong> - (modules/E. Internet Stability Graph.py)</p>
+<p><strong>^ Internet Stability Graph</strong> - (modules/E. Internet Stability Graph.py)</p>
 </figure>
 
 <figure>  
 <img src="https://github.com/Thomas-Duggan/project-images/blob/main/DosirakLiFT/DosirakLiFT_File-Cleaner.png?raw=true" width=500>
-<p><strong>File Cleaner</strong> - (modules/F. File Cleaner.py)</p>
+<p><strong>^ File Cleaner</strong> - (modules/F. File Cleaner.py)</p>
 </figure>
 
 </details>
