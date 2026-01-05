@@ -18,6 +18,11 @@ Dosirak LiFT *(pronounced dough-see-rack)* is a highly customizable, beginner-fr
 <p><strong>Quick Commands</strong> - (modules/C. Quick Commands.py)</p>
 </figure>
 
+<figure>  
+<img src="https://github.com/Thomas-Duggan/project-images/blob/main/DosirakLiFT/DosirakLiFT_Useful-Websites.png?raw=true" width=500>
+<p><strong>Useful Websites</strong> - (modules/C. Quick Commands.py)</p>
+</figure>
+
 </details>
 
 
