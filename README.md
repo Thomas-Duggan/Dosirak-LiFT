@@ -1,4 +1,4 @@
->> Notice: This app is currently in Alpha. Features may not work or may change significantly in later versions. 
+> Notice: This app is currently in Alpha. Features may not work or may change significantly in later versions. 
 
 
 ## Dosirak - Linux Fixes & Tricks
@@ -11,7 +11,9 @@ Dosirak LiFT *(pronounced dough-see-rack)* is a highly customizable, beginner-fr
 <figure>
 <img src="https://raw.githubusercontent.com/Thomas-Duggan/project-images/refs/heads/main/DosirakLiFT/DosirakLiFT_Home.png" width=300>
 <p>Home page (home.py)</p>
-  
+</figure>
+
+<figure>  
 <img src="https://raw.githubusercontent.com/Thomas-Duggan/project-images/refs/heads/main/DosirakLiFT/DosirakLiFT_Quick-Commands.png" width=300>
 <p>Quick Commands (quick-commands.py)</p>
 </figure>
