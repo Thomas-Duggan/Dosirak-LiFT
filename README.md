@@ -30,6 +30,11 @@ Dosirak LiFT *(pronounced dough-see-rack)* is a highly customizable, beginner-fr
 <p><strong>Internet Stability Graph</strong> - (modules/E. Internet Stability Graph.py)</p>
 </figure>
 
+<figure>  
+<img src="https://github.com/Thomas-Duggan/project-images/blob/main/DosirakLiFT/DosirakLiFT_File-Cleaner.png?raw=true" width=500>
+<p><strong>File Cleaner</strong> - (modules/E. Internet Stability Graph.py)</p>
+</figure>
+
 </details>
 
 
