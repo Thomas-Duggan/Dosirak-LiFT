@@ -7,6 +7,8 @@ Dosirak LiFT *(pronounced dough-see-rack)* is a highly customizable, beginner-fr
 ## Images
 <details>
 <summary><strong>Click me!</strong></summary>
+
+  Images accurate up to January 5th, 2026
   
 <figure>
 <img src="https://raw.githubusercontent.com/Thomas-Duggan/project-images/refs/heads/main/DosirakLiFT/DosirakLiFT_Home.png" width=300>
