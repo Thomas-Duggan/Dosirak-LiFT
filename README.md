@@ -10,12 +10,12 @@ Dosirak LiFT *(pronounced dough-see-rack)* is a highly customizable, beginner-fr
   
 <figure>
 <img src="https://raw.githubusercontent.com/Thomas-Duggan/project-images/refs/heads/main/DosirakLiFT/DosirakLiFT_Home.png" width=300>
-<p><strong>Home page</strong> (home.py)</p>
+<p><strong>Home page</strong> - (home.py)</p>
 </figure>
 
 <figure>  
 <img src="https://raw.githubusercontent.com/Thomas-Duggan/project-images/refs/heads/main/DosirakLiFT/DosirakLiFT_Quick-Commands.png" width=500>
-<p><strong>Quick Commands</strong> (modules/C. Quick Commands.py)</p>
+<p><strong>Quick Commands</strong> - (modules/C. Quick Commands.py)</p>
 </figure>
 
 </details>
