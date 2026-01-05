@@ -10,7 +10,7 @@ Dosirak LiFT *(pronounced dough-see-rack)* is a highly customizable, beginner-fr
   
 <figure>
 <img src="https://raw.githubusercontent.com/Thomas-Duggan/project-images/refs/heads/main/DosirakLiFT/DosirakLiFT_Home.png" width=300>
-<p>Home page ([home.py](https://github.com/Thomas-Duggan/Dosirak-LiFT/blob/main/home.py))</p>
+<p>Home page ( [home.py](https://github.com/Thomas-Duggan/Dosirak-LiFT/blob/main/home.py) )</p>
 </figure>
 
 <figure>  
