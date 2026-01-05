@@ -1,4 +1,4 @@
-<img width="648" height="687" alt="image" src="https://github.com/user-attachments/assets/e8e04b02-d509-4e39-a5b9-2b409d1abd11" />> Notice: This app is currently in Alpha. Features may not work or may change significantly in later versions. 
+>> Notice: This app is currently in Alpha. Features may not work or may change significantly in later versions. 
 
 
 ## Dosirak - Linux Fixes & Tricks
