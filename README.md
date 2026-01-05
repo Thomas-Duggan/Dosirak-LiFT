@@ -2,7 +2,7 @@
 
 
 ## Dosirak - Linux Fixes & Tricks
-Dosirak LiFT *(pronounced dough-see-rack)* is a highly customizable, beginner-friendly, GUI-based Linux program that helps ease the transition from Windows.
+Dosirak LiFT *(pronounced doe-see-rack)* is a highly customizable, beginner-friendly, GUI-based Linux program that helps ease the transition from Windows.
 
 ## Images
 <details>
@@ -38,8 +38,7 @@ Dosirak LiFT *(pronounced dough-see-rack)* is a highly customizable, beginner-fr
 </details>
 
 
-
-## How to Install
+## Installation
 Under "**Releases**", download and run "Dosirak-LiFT-Installer.sh".
 
 
