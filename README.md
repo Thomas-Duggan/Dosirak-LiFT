@@ -6,7 +6,7 @@ Dosirak LiFT *(pronounced dough-see-rack)* is a highly customizable, beginner-fr
 
 ## Images
 <details>
-<summary><strong>Click me!</strong></summary>
+<summary>Click me!</summary>
 
 (Images accurate up to January 5th, 2026)
   
