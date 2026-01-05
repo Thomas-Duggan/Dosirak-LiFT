@@ -8,7 +8,7 @@ Dosirak LiFT *(pronounced doe-see-rack)* is a highly customizable, beginner-frie
 <details>
 <summary>Click me!</summary>
 
-(Images accurate up to January 5th, 2026)
+> (Images accurate up to January 5th, 2026)
   
 <figure>
 <img src="https://raw.githubusercontent.com/Thomas-Duggan/project-images/refs/heads/main/DosirakLiFT/DosirakLiFT_Home.png" width=300>
