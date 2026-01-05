@@ -6,7 +6,7 @@ Dosirak LiFT *(pronounced dough-see-rack)* is a highly customizable, beginner-fr
 
 ## Images
 <details>
-<summary>**Click me!**</summary>
+<summary><strong>Click me!</strong></summary>
   
 <figure>
 <img src="https://raw.githubusercontent.com/Thomas-Duggan/project-images/refs/heads/main/DosirakLiFT/DosirakLiFT_Home.png" width=300>
@@ -33,7 +33,7 @@ Under "**Releases**", download and run "Dosirak-LiFT-Installer.sh".
 
 ## Planned Features
 <details>
-<summary>**ASAP**</summary>
+<summary><strong>ASAP</strong></summary>
 - Add more transparency about terminal commands and specifically ask for user consent beforehand.
 
 </details>
