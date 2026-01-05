@@ -32,7 +32,7 @@ Dosirak LiFT *(pronounced dough-see-rack)* is a highly customizable, beginner-fr
 
 <figure>  
 <img src="https://github.com/Thomas-Duggan/project-images/blob/main/DosirakLiFT/DosirakLiFT_File-Cleaner.png?raw=true" width=500>
-<p><strong>File Cleaner</strong> - (modules/E. Internet Stability Graph.py)</p>
+<p><strong>File Cleaner</strong> - (modules/F. File Cleaner.py)</p>
 </figure>
 
 </details>
